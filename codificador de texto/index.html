@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Criptografia</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Criptografia</h1>
+        <label for="text">Texto:</label>
+        <textarea id="text" placeholder="Digite o texto"></textarea>
+
+        <label for="option">Escolha:</label>
+        <select id="option">
+            <option value="criptografar">Criptografar</option>
+            <option value="descriptografar">Descriptografar</option>
+        </select>
+
+        <button onclick="processText()">Processar</button>
+
+        <label for="result">Resultado:</label>
+        <textarea id="result" readonly></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
